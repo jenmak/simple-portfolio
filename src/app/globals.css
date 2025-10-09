@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  --color-smoky-black: #141204;
+  --color-drab-dark-brown: #262A10;
+  --color-drab-dark-olive: #54442B;
+  --color-brown-sugar: #A9714B;
+  --color-persian-orange: #E8985E;
+  --color-apricot: #F2C6A6;
+}
+
+@theme inline {
+  --color-background: var(--color-smoky-black);
+  --color-foreground: var(--color-apricot);
+  --color-accent-1: var(--color-brown-sugar);
+  --color-accent-2: var(--color-drab-dark-olive);
+  --color-accent-3: var(--color-drab-dark-brown);
+  --color-accent-4: var(--color-apricot);
+  --font-sans: var(--font-lato);
+  --font-serif: var(--font-merriweather);
+
+  --jen-width: 92px;
+  --word-spacing: 20px;
+  --nifer-width: 140px;
+  --nifer-height: 60px;
+  --jennifer-mak-height: 120px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes makSlideUpAndDown {
+  0% {
+    transform: translateY(60px);
+    opacity: 1;
+  }
+
+  15% {
+    transform: translateY(60px);
+    opacity: 1;
+  }
+
+  60% {
+    transform: translateY(60px);
+    opacity: 1;
+  }
+
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  90% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(60px);
+    opacity: 1;
+  }
+}
+
+@keyframes letterSlideDownAndUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  5% {
+    opacity: .7;
+    transform: translateY(0);
+  }
+
+  45% {
+    opacity: .7;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+.name {
+  height: var(--jennifer-mak-height);
+}
+
+.jen,
+.nifer,
+.mak {
+  position: absolute;
+}
+
+.jen {
+  left: 0;
+}
+
+.nifer {
+  left: var(--jen-width);
+}
+
+.mak {
+  left: calc(var(--word-spacing) + var(--jen-width));
+  animation: makSlideUpAndDown 8s ease-in-out infinite !important;
+  display: inline-block;
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.letter-animate {
+  display: inline-block;
+  animation:
+    letterSlideDownAndUp 8s ease-in-out infinite;
+}
+
+.letter-1 {
+  animation-delay: 0s, 0s, 0s;
+}
+
+.letter-2 {
+  animation-delay: 0.3s, 0.3s, 0.3s;
+}
+
+.letter-3 {
+  animation-delay: 0.6s, 0.6s, 0.6s;
+}
+
+.letter-4 {
+  animation-delay: 0.9s, 0.9s, 0.9s;
+}
+
+.letter-5 {
+  animation-delay: 1.2s, 1.2s, 1.2s;
+}
+
+.text-accent-1 {
+  color: var(--color-accent-1);
+}
+
+.text-accent-2 {
+  color: var(--color-accent-2);
+}
+
+.text-accent-3 {
+  color: var(--color-accent-3);
+}
+
+.text-accent-4 {
+  color: var(--color-accent-4);
+}
