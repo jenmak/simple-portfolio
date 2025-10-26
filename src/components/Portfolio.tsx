@@ -39,10 +39,10 @@ export default function Portfolio() {
         {/* Apps */}
         <div className="bg-swatch-2 mb-4">
           <h4 className="text-accent-3 text-xs mb-3 font-sans">Apps</h4>
-          <a target="_blank" href="https://dripdropcityfrontend-production.up.railway.app/">
+          <a target="_blank" href="http://www.dripdropcity.com">
             <h3 className="text-sm mb-3 hover:text-linen">Drip Drop City</h3>
           </a>
-          <a target="_blank" href="">
+          <a target="_blank" href="https://construct-flow.com">
             <h3 className="text-sm pb-2 hover:text-linen">Construct Flow</h3>
           </a>
         </div>
