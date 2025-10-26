@@ -39,21 +39,25 @@ export default function Portfolio() {
         {/* Apps */}
         <div className="bg-swatch-2 mb-4">
           <h4 className="text-accent-3 text-xs mb-3 font-sans">Apps</h4>
-          <div className="flex flex-row gap-2 mb-1">
-            <a className="hover:text-linen" href="https://github.com/jenmak/day-ai">
-              <img className="w-2 h-2" src="/github.svg" alt="Github" />
-            </a>
+          <div className="flex flex-row gap-3 mb-3 items-center">
             <a target="_blank" href="http://www.dripdropcity.com">
-              <h3 className="text-sm mb-3 hover:text-linen">Drip Drop City</h3>
+              <h3 className="text-sm hover:text-linen">Drip Drop City</h3>
             </a>
+            <div>
+              <a className="hover:text-linen" href="https://github.com/jenmak/day-ai">
+                <img className="w-4 h-4" src="/github.svg" alt="Github" />
+              </a>
+            </div>
           </div>
-          <div className="flex flex-row gap-2">
-            <a className="hover:text-linen" href="https://github.com/jenmak/construct-flow">
-              <img className="w-2 h-2" src="/github.svg" alt="Github" />
-            </a>
+          <div className="flex flex-row gap-3 mb-3 items-center">
             <a target="_blank" href="https://construct-flow.com">
-              <h3 className="text-sm pb-2 hover:text-linen">Construct Flow</h3>
+              <h3 className="text-sm hover:text-linen">Construct Flow</h3>
             </a>
+            <div>
+              <a className="hover:text-linen" href="https://github.com/jenmak/construct-flow">
+                <img className="w-4 h-4" src="/github.svg" alt="Github" />
+              </a>
+            </div>
           </div>
         </div>
 
