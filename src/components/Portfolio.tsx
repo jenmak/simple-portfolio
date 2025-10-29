@@ -40,7 +40,7 @@ export default function Portfolio() {
         <div className="bg-swatch-2 mb-4">
           <h4 className="text-accent-3 text-xs mb-3 font-sans">Apps</h4>
           <div className="flex flex-row gap-3 mb-3 items-center">
-            <a target="_blank" href="http://www.dripdropcity.com">
+            <a target="_blank" href="https://dripdropcity.com">
               <h3 className="text-sm hover:text-linen">Drip Drop City</h3>
             </a>
             <div>
