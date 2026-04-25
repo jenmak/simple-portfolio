@@ -20,7 +20,7 @@ export default function Portfolio() {
         <a href="https://github.com/jenmak">
           <img src="/github.svg" alt="Github" />
         </a>
-        <a href="https://www.linkedin.com/in/jennifermichellemak/">
+        <a href="https://www.linkedin.com/in/jenmichellemak/">
           <img src="/linkedin.svg" alt="LinkedIn" />
         </a>
         <a href="/JenMak_Resume_2025.pdf">
